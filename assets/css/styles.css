@@ -155,7 +155,7 @@ img{
 }
 
 /*==================== NAV ====================*/
-.nav{
+/* .nav{
   max-width: 968px;
   height: var(--header-height);
   display: flex;
@@ -196,7 +196,7 @@ img{
   }
 } 
 /*didnt like how this looked */
-/* .nav__list{
+.nav__list{
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 } 
