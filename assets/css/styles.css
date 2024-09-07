@@ -162,7 +162,7 @@ img{
   justify-content: space-between;
   align-items: center;
 }
-/* 
+
 .nav__logo,
 .nav__toggle{
   color: var(--title-color);
@@ -194,7 +194,7 @@ img{
     border-radius: 1.5rem 1.5rem 0 0;
     transition: .3s;
   }
-} */
+} 
 /*didnt like how this looked */
 /* .nav__list{
   grid-template-columns: repeat(3, 1fr);
