@@ -441,6 +441,16 @@ body.dark-theme .home__school-icon {
   margin-bottom: var(--mb-2-5);
 }
 
+.about__description a {
+  color: var(--first-color); /* Change this to your desired color */
+  text-decoration: none; /* Remove underline */
+}
+
+.about__description a:hover {
+  color: var(--first-color-alt); /* Change this to your desired hover color */
+  text-decoration: underline; /* Optional: add underline on hover */
+}
+
 .about__info {
   display: flex;
   justify-content: space-evenly;
