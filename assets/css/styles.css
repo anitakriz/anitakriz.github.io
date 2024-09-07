@@ -155,7 +155,7 @@ img {
 }
 
 /*==================== NAV ====================*/
-.nav{
+/* .nav{
   max-width: 968px;
   height: var(--header-height);
   display: flex;
@@ -167,7 +167,7 @@ img {
 .nav__toggle{
   color: var(--title-color);
   font-weight: var(--font-medium)
-}
+} */
 
 /* show menu */
 
