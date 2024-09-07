@@ -155,7 +155,7 @@ img{
 }
 
 /*==================== NAV ====================*/
-.nav{
+/* .nav{
   max-width: 968px;
   height: var(--header-height);
   display: flex;
@@ -194,7 +194,7 @@ img{
     border-radius: 1.5rem 1.5rem 0 0;
     transition: .3s;
   }
-}
+} */
 /*didnt like how this looked */
 /* .nav__list{
   grid-template-columns: repeat(3, 1fr);
