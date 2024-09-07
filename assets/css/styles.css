@@ -99,15 +99,15 @@ h1, h2, h3, h4 {
   font-weight: var(--font-semi-bold);
 }
 
-ul {
+ul{
   list-style: none;
 }
 
-a {
+a{
   text-decoration: none;
 }
 
-img {
+img{
   max-width: 100%;
   height: auto;
 }
@@ -144,7 +144,7 @@ img {
   display: grid;
   gap: 1.5rem;
 }
-
+/* 
 .header {
   width: 100%;
   position: fixed;
@@ -152,7 +152,7 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
-}
+} */
 
 /*==================== NAV ====================*/
 /* .nav{
