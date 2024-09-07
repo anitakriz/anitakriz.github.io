@@ -467,7 +467,39 @@ body.dark-theme .home__school-icon {
   justify-content: center;
 }
 
-/* Make the timeline horizontal */
+/* Button styling */
+.timeline__button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.timeline__button:hover {
+  background-color: #0056b3;
+}
+
+.timeline__icon {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+/* Timeline details initially hidden */
+.timeline__details {
+  display: none;
+  margin-top: 20px;
+}
+
+/* Active state for showing timeline details */
+.timeline__active .timeline__details {
+  display: block;
+}
+
+/* Timeline row layout */
 .timeline__row {
   display: flex;
   justify-content: space-between;
@@ -484,27 +516,9 @@ body.dark-theme .home__school-icon {
 
 .timeline__calendar {
   margin-top: 10px;
+  font-size: 0.9rem;
 }
 
-/* Styling for the connecting lines */
-.timeline__data::before {
-  content: "";
-  width: 100%;
-  height: 2px;
-  background-color: #ccc;
-  position: absolute;
-  top: 50%;
-  left: -50%;
-  z-index: -1;
-}
-
-.timeline__data:first-child::before {
-  display: none;
-}
-
-.timeline__rounder {
-  display: none; /* Hide rounders if not needed */
-}
 
 /*==================== SKILLS ====================*/
 .skills__container {
