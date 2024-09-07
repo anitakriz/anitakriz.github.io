@@ -312,7 +312,7 @@ img {
   margin-bottom: var(--mb-2);
 }
 .home__question {
-  color: var(--first-color-second);
+  color: var(--first-color);
 }
 .home__scroll {
   display: none;
@@ -350,15 +350,15 @@ img {
   justify-content: center;
   align-items: center; /* Aligns logos vertically */
   gap: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .home__school-icon {
   display: flex; /* Ensures the image is centered */
   justify-content: center;
   align-items: center;
-  width: 80px;  /* Set uniform width */
-  height: 80px; /* Set uniform height */
+  width: 120px; 
+  height: 120px; 
   overflow: hidden; /* Prevents logos from overflowing */
   transition: transform 0.3s ease-in-out;
 }
