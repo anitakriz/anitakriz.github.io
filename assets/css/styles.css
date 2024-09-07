@@ -155,14 +155,14 @@ img{
 }
 
 /*==================== NAV ====================*/
-/* .nav{
+.nav{
   max-width: 968px;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+/* 
 .nav__logo,
 .nav__toggle{
   color: var(--title-color);
