@@ -308,8 +308,19 @@ img {
   margin-bottom: var(--mb-0-75);
 }
 
+.home__scroll-container {
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Vertically center the items */
+  justify-content: space-between; /* Optional: space between the items */
+}
+
 .home__scroll {
-  display: none;
+  margin-right: 1rem; /* Add some space between the button and the quote */
+}
+
+.home__subtitle {
+  margin: 0; /* Remove default margin if needed */
+  font-size: var(--medium-font-size); /* Adjust as needed */
 }
 
 .home__scroll-button {
@@ -335,12 +346,11 @@ img {
 .home__scroll-arrow {
   font-size: 1.25rem;
 }
+
 .home__question {
   color: var(--first-color);
 }
-.home__question {
-  color: var(--first-color);
-}
+
 .home__schools {
   display: flex;
   justify-content: center;
