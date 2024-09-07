@@ -343,7 +343,7 @@ img {
 }
 .home__question {
   margin-bottom: var(--mb-2);
-  color: var(--first-color-lighter);
+  color: var(--first-color);
 }
 .home__schools {
   display: flex;
