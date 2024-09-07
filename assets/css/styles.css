@@ -366,6 +366,13 @@ img {
 .home__school-icon:hover {
   transform: scale(1.1);
 }
+
+/* Dark theme background for logos */
+body.dark-theme .home__school-icon {
+  background-color: #fff; /* White background in dark mode */
+  border-radius: 50%; /* Optional: Make it circular */
+}
+
 /*========== BUTTONS ==========*/
 .button {
   display: inline-block;
