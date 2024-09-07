@@ -338,6 +338,9 @@ img {
 .home__question {
   color: var(--first-color);
 }
+.home__question {
+  color: var(--first-color);
+}
 .home__schools {
   display: flex;
   justify-content: center;
@@ -452,7 +455,7 @@ body.dark-theme .home__school-icon {
 
 
 /*==================== SKILLS ====================*/
-.skills__container {
+/* .skills__container {
   row-gap: 0;
 }
 
@@ -572,7 +575,7 @@ body.dark-theme .home__school-icon {
 
 .skills__open .skills__arrow {
   transform: rotate(-180deg);
-}
+} */
 
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs {
@@ -647,7 +650,7 @@ body.dark-theme .home__school-icon {
 }
 
 /*==================== SERVICES ====================*/
-.services__container {
+/* .services__container {
   gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -744,7 +747,7 @@ body.dark-theme .home__school-icon {
 .active-modal {
   opacity: 1;
   visibility: visible;
-}
+} */
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
