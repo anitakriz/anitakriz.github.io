@@ -305,7 +305,7 @@ img {
   font-size: var(--h3-font-size);
   color: var(--text-color);
   font-weight: var(--font-medium);
-  margin-bottom: var(--mb-0-75);
+  margin-bottom: var(--mb-1);
 }
 
 .home__scroll-container {
@@ -318,9 +318,9 @@ img {
   margin-right: 1rem; /* Add some space between the button and the quote */
 }
 
-.home__subtitle {
+.home__quote {
   margin: 0; /* Remove default margin if needed */
-  font-size: var(--medium-font-size); /* Adjust as needed */
+  font-size: var(--h2-font-size); /* Adjust as needed */
 }
 
 .home__scroll-button {
