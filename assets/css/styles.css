@@ -467,6 +467,45 @@ body.dark-theme .home__school-icon {
   justify-content: center;
 }
 
+/* Make the timeline horizontal */
+.timeline__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.timeline__data {
+  text-align: center;
+  padding: 10px;
+  flex-basis: 30%;
+  position: relative;
+}
+
+.timeline__calendar {
+  margin-top: 10px;
+}
+
+/* Styling for the connecting lines */
+.timeline__data::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  z-index: -1;
+}
+
+.timeline__data:first-child::before {
+  display: none;
+}
+
+.timeline__rounder {
+  display: none; /* Hide rounders if not needed */
+}
+
 /*==================== SKILLS ====================*/
 .skills__container {
   row-gap: 0;
