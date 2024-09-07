@@ -336,7 +336,6 @@ img {
   font-size: 1.25rem;
 }
 .home__question {
-  margin-bottom: var(--mb-2);
   color: var(--first-color);
 }
 .home__schools {
