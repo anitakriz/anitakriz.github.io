@@ -311,7 +311,9 @@ img {
 .home__description {
   margin-bottom: var(--mb-2);
 }
-
+.home__question {
+  color: var(--first-color-second);
+}
 .home__scroll {
   display: none;
 }
@@ -338,6 +340,10 @@ img {
 
 .home__scroll-arrow {
   font-size: 1.25rem;
+}
+.home__question {
+  margin-bottom: var(--mb-2);
+  color: var(--first-color-lighter);
 }
 .home__schools {
   display: flex;
@@ -518,7 +524,7 @@ body.dark-theme .home__school-icon {
 }
 
 .skills__bar {
-  background-color: var(--first-color-lighter);
+  background-color: var(--first-color-second);
 }
 
 .skills__percentage {
