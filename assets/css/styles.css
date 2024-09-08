@@ -441,12 +441,6 @@ img {
 }
 
 /*==================== ABOUT ====================*/
-.about-section {
-  width: 100%; /* Ensure it takes the full width */
-  max-width: 1200px; /* Optional: Set a maximum width for large screens */
-  margin: 0 auto; /* Center the section */
-  padding: 2rem 0; /* Keep existing padding */
-}
 
 .about__container {
   display: flex; /* Use flex for layout */
