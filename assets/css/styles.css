@@ -441,21 +441,30 @@ img {
 }
 
 /*==================== ABOUT ====================*/
+.about__container {
+  display: flex; /* Use flexbox for the layout */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Space out the image and text */
+  padding: 2rem; /* Add padding for breathing space */
+}
+
 .about__img {
-  width: 400px; /* Increase the width of the image */
-  max-width: 100%;
-  border-radius: .5rem;
-  justify-self: center;
-  align-self: center;
+  width: 400px; /* Set a specific width for the image */
+  max-width: 100%; /* Ensure it doesn’t exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: .5rem; /* Rounded corners */
+}
+
+.about__data {
+  flex: 1; /* Allow this to take available space */
+  max-width: 600px; /* Maximum width for the description */
+  margin-left: 2rem; /* Space between image and text */
 }
 
 .about__description {
-  text-align: center;
+  text-align: left; /* Align text to the left */
   margin-bottom: 0.5rem;
-  max-width: 100%;
-  max-width: 600px; /* Optional: maximum width for larger screens */
-  margin-left: auto; /* Center horizontally */
-  margin-right: auto; /* Center horizontally */
+  width: 100%; /* Full width */
 }
 
 .about__description a {
@@ -471,6 +480,7 @@ img {
 .about__buttons {
   display: flex;
   justify-content: center;
+  margin-top: 1rem; /* Add some space above the buttons */
   background-color: var(--first-color-lighter);
 }
 
@@ -1009,19 +1019,26 @@ img {
     margin-left: 3rem;
   }
   .about__container {
-    column-gap: 5rem;
+    display: flex; /* Use flexbox for layout */
+    column-gap: 5rem; /* Space between image and text */
+    align-items: center; /* Center items vertically */
   }
   .about__img {
-    width: 350px;
+    width: 400px; /* Set desired width for the image */
+    max-width: 100%; /* Ensure it doesn’t exceed container width */
+    height: auto; /* Maintain aspect ratio */
   }
   .about__description {
-    text-align: initial;
+    text-align: left; /* Align text to the left for readability */
+    margin-bottom: 0.5rem; /* Space below each description */
   }
   .about__info {
-    justify-content: space-between;
+    justify-content: space-between; /* Space between info elements */
   }
   .about__buttons {
-    justify-content: initial;
+    display: flex; /* Make buttons a flex container */
+    justify-content: flex-start; /* Align buttons to the start */
+    margin-top: 1rem; /* Space above the buttons */
   }
   .qualification__tabs {
     justify-content: center;
