@@ -447,6 +447,12 @@ img {
   margin: 0 auto; /* Center the section */
   padding: 2rem 0; /* Keep existing padding */
 }
+
+.about-section .container {
+  margin-left: auto; /* Center the container */
+  margin-right: auto; /* Center the container */
+}
+
 .about__container {
   display: flex; /* Use flex for layout */
   flex-direction: column; /* Stack items vertically */
@@ -455,8 +461,6 @@ img {
 }
 
 .about__img-wrapper {
-  display: flex; /* Optional: Allows for centering the image */
-  justify-content: center; /* Center the image */
   margin-bottom: 1rem; /* Space between the image and text */
 }
 
