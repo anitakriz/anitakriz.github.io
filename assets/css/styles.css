@@ -443,8 +443,8 @@ img {
 /*==================== ABOUT ====================*/
 .about__container {
   display: flex; /* Use flexbox for the layout */
-  align-items: center; /* Align items vertically */
-  justify-content: space-between; /* Space out the image and text */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align items */
   padding: 2rem; /* Add padding for breathing space */
 }
 
@@ -458,11 +458,11 @@ img {
 .about__data {
   flex: 1; /* Allow this to take available space */
   max-width: 600px; /* Maximum width for the description */
-  margin-left: 2rem; /* Space between image and text */
+  margin-top: 1rem; /* Space above the text */
+  text-align: center; /* Center text for aesthetics */
 }
 
 .about__description {
-  text-align: left; /* Align text to the left */
   margin-bottom: 0.5rem;
   max-width: 600px; 
   width: 100%; /* Full width */
@@ -1019,26 +1019,16 @@ img {
     margin-left: 3rem;
   }
   .about__container {
-    display: flex; /* Use flexbox for layout */
-    column-gap: 5rem; /* Space between image and text */
-    align-items: center; /* Center items vertically */
+    flex-direction: row; /* Change to row layout */
+    align-items: flex-start; /* Align items at the start */
   }
   .about__img {
-    width: 400px; /* Set desired width for the image */
-    max-width: 100%; /* Ensure it doesn’t exceed container width */
-    height: auto; /* Maintain aspect ratio */
+      width: 50%; /* 50% width for the image on larger screens */
+      max-width: 400px; /* Keep max width consistent */
+      margin-right: 2rem; /* Space between image and text */
   }
-  .about__description {
-    text-align: left; /* Align text to the left for readability */
-    margin-bottom: 0.5rem; /* Space below each description */
-  }
-  .about__info {
-    justify-content: space-between; /* Space between info elements */
-  }
-  .about__buttons {
-    display: flex; /* Make buttons a flex container */
-    justify-content: flex-start; /* Align buttons to the start */
-    margin-top: 1rem; /* Space above the buttons */
+  .about__data {
+      text-align: left; /* Align text to the left */
   }
   .qualification__tabs {
     justify-content: center;
