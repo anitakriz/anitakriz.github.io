@@ -452,7 +452,7 @@ img {
 .about__description {
   text-align: center;
   margin-bottom: 0.5rem;
-  width: 80%; /* Set the width of the description */
+  max-width: 100%;
   max-width: 600px; /* Optional: maximum width for larger screens */
   margin-left: auto; /* Center horizontally */
   margin-right: auto; /* Center horizontally */
@@ -622,7 +622,7 @@ img {
 
 .qualification__data {
   display: grid;
-  grid-template-columns: 1.5fr max-content 1.5fr;
+  grid-template-columns: 2fr max-content 2fr;
   column-gap: 1.5rem;
 }
 
