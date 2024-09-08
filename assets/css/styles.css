@@ -5,22 +5,21 @@
   --header-height: 3rem;
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 240; /* dark blue */
-  
-  /* Default Dark theme colors */
+  --hue-color: 240;
+  /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
-  --first-color-second: hsl(var(--hue-color), 30%, 8%);
+  --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-  --title-color: hsl(var(--hue-color), 8%, 95%);
-  --text-color: hsl(var(--hue-color), 8%, 75%);
+  --title-color: hsl(var(--hue-color), 8%, 15%);
+  --text-color: hsl(var(--hue-color), 8%, 45%);
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
-  --input-color: hsl(var(--hue-color), 29%, 16%);
-  --body-color: hsl(var(--hue-color), 28%, 12%);
-  --container-color: hsl(var(--hue-color), 29%, 16%);
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
-  --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
-  
+  --input-color: hsl(var(--hue-color), 70%, 96%);
+  --body-color: hsl(var(--hue-color), 60%, 99%);
+  --container-color: #FFF;
+  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+  --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -60,31 +59,12 @@
   }
 }
 
-/* Light theme styles */
-body.light-theme {
-  --first-color: hsl(var(--hue-color), 69%, 61%);
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
-  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-  --title-color: hsl(var(--hue-color), 8%, 15%);
-  --text-color: hsl(var(--hue-color), 8%, 45%);
-  --text-color-light: hsl(var(--hue-color), 8%, 65%);
-  --input-color: hsl(var(--hue-color), 70%, 96%);
-  --body-color: hsl(var(--hue-color), 60%, 99%);
-  --container-color: #FFF;
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-  --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
-}
-
-/* Dark theme specific overrides */
+/*========== Variables Dark theme ==========*/
 body.dark-theme {
-  --first-color: hsl(var(--hue-color), 69%, 61%);
+  /* HSL color mode */
   --first-color-second: hsl(var(--hue-color), 30%, 8%);
-  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
   --title-color: hsl(var(--hue-color), 8%, 95%);
   --text-color: hsl(var(--hue-color), 8%, 75%);
-  --text-color-light: hsl(var(--hue-color), 8%, 65%);
   --input-color: hsl(var(--hue-color), 29%, 16%);
   --body-color: hsl(var(--hue-color), 28%, 12%);
   --container-color: hsl(var(--hue-color), 29%, 16%);
@@ -382,6 +362,7 @@ img {
   display: flex; /* Ensures the image is centered */
   justify-content: center;
   align-items: center;
+  background-color: var(--first-color-lighter);
   width: 120px; 
   height: 120px; 
   overflow: hidden; /* Prevents logos from overflowing */
@@ -389,31 +370,13 @@ img {
 }
 
 .home__school-icon img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 80%;
+  max-height: 80%;
   object-fit: contain; /* Ensures logos fit without distortion */
 }
 
 .home__school-icon:hover {
   transform: scale(1.1);
-}
-
-/* Dark theme background for logos */
-body.dark-theme .home__school-icon {
-  background-color: var(--text-color); /* White background in dark mode */
-  width: 140px;            /* Adjust width as needed */
-  height: 140px;           /* Adjust height as needed */
-  border: 2px solid #000;  /* Black border, adjust color and thickness as needed */
-  display: flex;           /* Center contents if necessary */
-  align-items: center;     /* Center contents vertically */
-  justify-content: center; /* Center contents horizontally */
-  border-radius: 8px;      /* Optional: round the corners */
-}
-
-/* Optional: add styling for the logo inside */
-body.dark-theme .home__school-icon img {
-  max-width: 80%;         /* Adjust to fit the logo within the container */
-  max-height: 80%;        /* Adjust to fit the logo within the container */
 }
 
 /*========== BUTTONS ==========*/
