@@ -464,6 +464,7 @@ img {
 .about__description {
   text-align: left; /* Align text to the left */
   margin-bottom: 0.5rem;
+  max-width: 600px; 
   width: 100%; /* Full width */
 }
 
@@ -481,7 +482,6 @@ img {
   display: flex;
   justify-content: center;
   margin-top: 1rem; /* Add some space above the buttons */
-  background-color: var(--first-color-lighter);
 }
 
 
