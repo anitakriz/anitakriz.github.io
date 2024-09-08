@@ -442,10 +442,16 @@ img {
 
 /*==================== ABOUT ====================*/
 .about__container {
-  display: flex; /* Use flexbox for the layout */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center align items */
-  padding: 2rem; /* Add padding for breathing space */
+  display: grid; /* Use grid for layout */
+  grid-template-columns: 1fr; /* One column for all screen sizes */
+  gap: 1.5rem; /* Space between items */
+  padding: 2rem; /* Padding around the container */
+  align-items: center; /* Center items vertically */
+}
+
+.about__img-wrapper {
+  display: flex; /* Optional: Allows for centering the image */
+  justify-content: center; /* Center the image */
 }
 
 .about__img {
@@ -474,8 +480,8 @@ img {
 }
 
 .about__description a:hover {
-  color: var(--first-color-alt); /* Change this to your desired hover color */
-  text-decoration: underline; /* Optional: add underline on hover */
+  color: var(--first-color-alt); /* Change hover color */
+  text-decoration: underline; /* Optional: underline on hover */
 }
 
 .about__buttons {
