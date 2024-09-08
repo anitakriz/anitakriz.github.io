@@ -448,11 +448,6 @@ img {
   padding: 2rem 0; /* Keep existing padding */
 }
 
-.about-section .container {
-  margin-left: auto; /* Center the container */
-  margin-right: auto; /* Center the container */
-}
-
 .about__container {
   display: flex; /* Use flex for layout */
   flex-direction: column; /* Stack items vertically */
@@ -462,6 +457,9 @@ img {
 
 .about__img-wrapper {
   margin-bottom: 1rem; /* Space between the image and text */
+  display: flex; /* Center the image wrapper */
+  justify-content: center; /* Center the image horizontally */
+  width: 100%; /* Ensure it takes full width */
 }
 
 .about__img {
@@ -497,6 +495,7 @@ img {
   justify-content: center; /* Center buttons */
   margin-top: 1rem; /* Add some space above the buttons */
 }
+
 /*==================== SKILLS ====================*/
 /* .skills__container {
   row-gap: 0;
