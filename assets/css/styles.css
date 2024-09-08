@@ -463,7 +463,7 @@ img {
 }
 
 .about__img {
-  width: 400px; /* Set a specific width for the image */
+  width: 600px; /* Set a specific width for the image */
   max-width: 100%; /* Ensure it doesn’t exceed container width */
   height: auto; /* Maintain aspect ratio */
   border-radius: .5rem; /* Rounded corners */
@@ -1036,12 +1036,12 @@ img {
     padding: 2rem; /* Padding around the container */
   }
   .about__img {
-      width: 50%; /* 50% width for the image on larger screens */
-      max-width: 400px; /* Keep max width consistent */
+      width: 100%; /* 50% width for the image on larger screens */
+      max-width: 600px; /* Keep max width consistent */
       margin-right: 2rem; /* Space between image and text */
   }
   .about__data {
-      text-align: left; /* Align text to the left */
+      text-align: center; /* Align text to the left */
   }
   .qualification__tabs {
     justify-content: center;
