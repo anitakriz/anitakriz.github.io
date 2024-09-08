@@ -1030,8 +1030,10 @@ img {
     margin-left: 3rem;
   }
   .about__container {
-    flex-direction: row; /* Change to row layout */
+    flex-direction: column; /* Change to row layout */
     align-items: flex-start; /* Align items at the start */
+    align-items: center; /* Center align items */
+    padding: 2rem; /* Padding around the container */
   }
   .about__img {
       width: 50%; /* 50% width for the image on larger screens */
