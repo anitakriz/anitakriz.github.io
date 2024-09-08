@@ -1028,6 +1028,7 @@ img {
     flex-direction: column; /* Change to row layout */
     align-items: flex-start; /* Align items at the start */
     align-items: center; /* Center align items */
+    margin: 0 auto; /* Center the container horizontally */
     padding: 2rem; /* Padding around the container */
   }
   .about__img {
