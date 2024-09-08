@@ -442,16 +442,16 @@ img {
 
 /*==================== ABOUT ====================*/
 .about__container {
-  display: grid; /* Use grid for layout */
-  grid-template-columns: 1fr; /* One column for all screen sizes */
-  gap: 1.5rem; /* Space between items */
+  display: flex; /* Use flex for layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align items */
   padding: 2rem; /* Padding around the container */
-  align-items: center; /* Center items vertically */
 }
 
 .about__img-wrapper {
   display: flex; /* Optional: Allows for centering the image */
   justify-content: center; /* Center the image */
+  margin-bottom: 1rem; /* Space between the image and text */
 }
 
 .about__img {
@@ -462,14 +462,12 @@ img {
 }
 
 .about__data {
-  flex: 1; /* Allow this to take available space */
   max-width: 600px; /* Maximum width for the description */
-  margin-top: 1rem; /* Space above the text */
   text-align: center; /* Center text for aesthetics */
 }
 
 .about__description {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem; /* Space below each description */
   max-width: 600px; 
   width: 100%; /* Full width */
 }
@@ -486,11 +484,9 @@ img {
 
 .about__buttons {
   display: flex;
-  justify-content: center;
+  justify-content: center; /* Center buttons */
   margin-top: 1rem; /* Add some space above the buttons */
 }
-
-
 /*==================== SKILLS ====================*/
 /* .skills__container {
   row-gap: 0;
