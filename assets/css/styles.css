@@ -362,8 +362,8 @@ img {
   background-color: var(--first-color-lighter);
   
   /* Set height and width */
-  height: 120px; /* Example height */
-  width: 500px;  /* Example width */
+  height: 100px; /* Example height */
+  width: 400px;  /* Example width */
 
   padding: 2rem;
   border-radius: 20px; /* Rounded edges */
@@ -382,8 +382,8 @@ img {
 }
 
 .home__school-icon img {
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain; /* Ensures logos fit without distortion */
 }
 
