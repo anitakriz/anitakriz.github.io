@@ -5,7 +5,7 @@
   --header-height: 3rem;
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 210;
+  --hue-color: 220;
   /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -282,6 +282,7 @@ img {
 
 .home__social-icon:hover {
   color: var(--first-color-alt);
+  transform: scale(1.1);
 }
 
 .home__blob {
@@ -359,9 +360,14 @@ img {
 
   /* Unified background for all logos */
   background-color: var(--first-color-lighter);
-  border-radius: 20px; /* Rounded edges */
+  
+  /* Set height and width */
+  height: 140; /* Example height */
+  width: 600px;  /* Example width */
+
   padding: 2rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for a lifted effect */
+  border-radius: 20px; /* Rounded edges */
+  box-shadow: 0 4px 8px rgba(160, 69, 69, 0.268); /* Optional shadow */
 }
 
 .home__school-icon {
