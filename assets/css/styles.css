@@ -535,6 +535,34 @@ img {
   margin-bottom: 0.5rem; /* Space between stacked logos */
 }
 
+/*==================== PUBLICATIONS ====================*/
+.publications {
+  margin: 2rem 0;
+}
+
+.publication__data {
+  background-color: var(--first-color-lighter);
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 8px rgba(160, 69, 69, 0.2);
+}
+
+.publication__title {
+  color: black; /* Title color */
+}
+
+.publication__details {
+  color: darkgray; /* Subtitle color */
+}
+
+.publication__link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--first-color);
+  text-decoration: underline;
+}
+
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
   overflow: initial;
