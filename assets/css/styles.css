@@ -496,16 +496,23 @@ img {
   display: flex; /* Use flex for layout */
   flex-direction: column; /* Stack items vertically */
   align-items: center; /* Center align items */
-  max-width: 1200px;
+  max-width: 1200px; /* Limit the max-width for better readability */
   margin: 0 auto; /* Center the container horizontally */
+  padding: 2rem 1rem; /* Add padding to prevent content from hitting the edges */
+  gap: 2rem; /* Add spacing between sections */
 }
 
 .qualification__content {
-  align-items: center;
+  width: 100%; /* Make sure the content takes the full width */
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Add consistent spacing between qualification data */
 }
 
 .qualification__data {
-  margin-bottom: 1.5rem;
+  text-align: left; /* Align text to the left for better readability */
+  width: 100%; /* Ensure each item takes full width */
+  margin-bottom: 1.5rem; /* Consistent margin at the bottom */
 }
 
 .qualification__title {
@@ -523,15 +530,6 @@ img {
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
 }
-
-.section__title {
-  font-size: var(--h2-font-size);
-  font-weight: var(--font-bold);
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
   overflow: initial;
