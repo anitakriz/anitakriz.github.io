@@ -532,6 +532,19 @@ img {
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
 }
+
+.qualification__data {
+  display: flex; /* Aligns items in a row */
+  align-items: center; /* Vertically centers the logo and text */
+  margin-bottom: 1rem; /* Space between each education entry */
+}
+
+.qualification__logo {
+  width: 50px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 1rem; /* Space between logo and text */
+}
+
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
   overflow: initial;
