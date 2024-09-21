@@ -493,36 +493,27 @@ img {
 
 /*==================== QUALIFICATION ====================*/
 .qualification__container {
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal columns for Education and Accomplishments */
-  gap: 2rem; /* Add space between the columns */
+  margin: 0 auto;
+  padding: 2rem 0;
 }
 
 .qualification__content {
-  display: block; /* Ensure content is displayed */
+  padding: 1rem 0;
 }
 
 .qualification__data {
-  display: grid;
-  grid-template-columns: 2fr max-content 2fr;
-  column-gap: 1.5rem;
-}
-
-.qualification__sections {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  margin-bottom: 1.5rem;
 }
 
 .qualification__title {
-  font-size: var(--normal-font-size);
+  font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
 }
 
 .qualification__subtitle {
-  display: inline-block;
-  font-size: var(--small-font-size);
-  margin-bottom: var(--mb-1);
+  display: block;
+  font-size: var(--normal-font-size);
+  margin-bottom: 0.5rem;
 }
 
 .qualification__calendar {
@@ -530,21 +521,13 @@ img {
   color: var(--text-color-light);
 }
 
-.qualification__rounder {
-  display: inline-block;
-  width: 13px;
-  height: 13px;
-  background-color: var(--first-color);
-  border-radius: 50%;
+.section__title {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-bold);
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-.qualification__line {
-  display: block;
-  width: 1px;
-  height: 100%;
-  background-color: var(--first-color);
-  transform: translate(6px, -7px);
-}
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
