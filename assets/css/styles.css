@@ -518,9 +518,15 @@ img {
   flex-direction: column; /* Stacks title and subtitles vertically */
 }
 
-.qualification__title,
-.qualification__subtitle {
+.qualification__title{
+  color: black; /* Set the title color to black */
   margin: 0; /* Remove default margin for better alignment */
+
+}
+.qualification__subtitle {
+  color: darkgray;
+  margin: 0; /* Remove default margin for better alignment */
+  
 }
 
 .qualification__logo {
