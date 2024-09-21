@@ -492,6 +492,26 @@ img {
 }
 
 /*==================== QUALIFICATION ====================*/
+
+.qualification__background {
+  display: flex;
+  justify-content: flex-start; /* Align items to the start */
+  align-items: center;
+  gap: 1.5rem;
+  
+  /* Unified background for each education entry */
+  background-color: var(--first-color-lighter); /* You can customize this color */
+  
+  /* Set height and width */
+  height: 100px; /* Example height, adjust as needed */
+  width: 100%; /* Full width of the container, or specify a max-width */
+
+  padding: 2rem; /* Padding around content */
+  border-radius: 20px; /* Rounded edges */
+  box-shadow: 0 4px 8px rgba(160, 69, 69, 0.268); /* Optional shadow */
+}
+
+
 .qualification__container {
   display: flex;
   flex-direction: column;
