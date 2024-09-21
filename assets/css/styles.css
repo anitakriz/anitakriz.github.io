@@ -536,16 +536,24 @@ img {
 }
 
 /*==================== PUBLICATIONS ====================*/
-.publications {
-  margin: 2rem 0;
+.publications__container {
+  display: flex;
+  justify-content: center; /* Center the container */
+  align-items: center; /* Center the content vertically */
+  margin-top: 2rem; /* Margin from the top */
+}
+
+.publications__content {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 2rem;
+  border-radius: 10px; /* Rounded edges */
+  box-shadow: 0 4px 8px rgba(160, 69, 69, 0.2); /* Optional shadow */
+  width: 80%; /* Control the width as needed */
+  max-width: 600px; /* Max width for larger screens */
 }
 
 .publication__data {
-  background-color: var(--first-color-lighter);
-  padding: 1.5rem;
-  border-radius: 10px;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 4px 8px rgba(160, 69, 69, 0.2);
+  margin-bottom: 1.5rem; /* Space between publications */
 }
 
 .publication__title {
@@ -562,6 +570,7 @@ img {
   color: var(--first-color);
   text-decoration: underline;
 }
+
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
