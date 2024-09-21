@@ -524,9 +524,12 @@ img {
 
 }
 .qualification__subtitle {
-  color: darkgray;
+  color: darkslategray;
   margin: 0; /* Remove default margin for better alignment */
   
+}
+.qualification__calendar {
+  color: darkslategray;
 }
 
 .qualification__logo {
