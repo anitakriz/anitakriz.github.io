@@ -441,9 +441,7 @@ img {
 }
 
 /*==================== ABOUT ====================*/
-.about__section {
-  padding: 1rem 0 1rem;
-}
+
 .about__container {
   display: flex; /* Use flex for layout */
   flex-direction: column; /* Stack items vertically */
@@ -451,6 +449,11 @@ img {
   max-width: 1200px;
   margin: 0 auto; /* Center the container horizontally */
   padding: 0; /* Remove any default padding */
+}
+.home__subtitle {
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  margin-bottom: var(--mb-1);
 }
 
 .about__img {
