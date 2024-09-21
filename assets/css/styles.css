@@ -450,7 +450,7 @@ img {
   margin: 0 auto; /* Center the container horizontally */
   padding: 0; /* Remove any default padding */
 }
-.home__subtitle {
+.about__subtitle {
   font-size: var(--small-font-size);
   color: var(--text-color);
   margin-bottom: var(--mb-1);
