@@ -1028,7 +1028,7 @@ img {
     margin-left: 3rem;
   }
   .about__img {
-      width: 100%; /* 50% width for the image on larger screens */
+      width: 50%; /* 50% width for the image on larger screens */
   }
   .about__data {
       text-align: center; /* Align text to the left */
