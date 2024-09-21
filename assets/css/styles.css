@@ -909,6 +909,9 @@ img {
   .home__blob {
     width: 180px;
   }
+  .about__img {
+    width: 100%; /* 50% width for the image on larger screens */
+  }
   .skills__title {
     font-size: var(--normal-font-size);
   }
@@ -1024,16 +1027,8 @@ img {
   .home__scroll-button {
     margin-left: 3rem;
   }
-  /* .about__container {
-    flex-direction: column 
-    align-items: center; 
-    max-width: 1200px;
-    margin: 0 auto; 
-  } */
   .about__img {
       width: 100%; /* 50% width for the image on larger screens */
-      max-width: 600px; /* Keep max width consistent */
-      margin-right: 2rem; /* Space between image and text */
   }
   .about__data {
       text-align: center; /* Align text to the left */
