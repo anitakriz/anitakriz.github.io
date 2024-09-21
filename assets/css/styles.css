@@ -441,7 +441,9 @@ img {
 }
 
 /*==================== ABOUT ====================*/
-
+.about__section {
+  padding: 1rem 0 1rem;
+}
 .about__container {
   display: flex; /* Use flex for layout */
   flex-direction: column; /* Stack items vertically */
@@ -449,13 +451,6 @@ img {
   max-width: 1200px;
   margin: 0 auto; /* Center the container horizontally */
   padding: 0; /* Remove any default padding */
-}
-
-.about__img-wrapper {
-  margin-bottom: 1rem; /* Space between the image and text */
-  display: flex; /* Center the image wrapper */
-  justify-content: center; /* Center the image horizontally */
-  width: 100%; /* Ensure it takes full width */
 }
 
 .about__img {
@@ -494,29 +489,29 @@ img {
 
 /*==================== QUALIFICATION ====================*/
 .qualification__container {
-  display: flex; /* Use flex for layout */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center align items */
-  justify-content: center;
-  max-width: 1200px; /* Limit the max-width for better readability */
-  margin: 0 auto; /* Center the container horizontally */
-  padding: 2rem 1rem; /* Add padding to prevent content from hitting the edges */
-  gap: 2rem; /* Add spacing between sections */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align items */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  gap: 2rem;
 }
 
 .qualification__content {
-  width: 100%; /* Make sure the content takes the full width */
+  width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem; /* Add consistent spacing between qualification data */
+  gap: 1.5rem;
+  align-items: center; /* Center-align content */
 }
 
 .qualification__data {
   text-align: left; /* Align text to the left */
-  width: 100%; /* Take full width */
-  max-width: 800px; /* Set a maximum width to prevent stretching */
-  margin-bottom: 1.5rem; /* Add space at the bottom */
-  padding: 0 1rem; /* Add padding for spacing inside the container */
+  width: 100%;
+  max-width: 800px; /* Limit width */
+  margin-bottom: 1.5rem;
+  padding: 1rem 1rem;
 }
 
 .qualification__title {
@@ -544,7 +539,7 @@ img {
 }
 
 .portfolio__img {
-  width: 265px;
+  width: 300px;
   border-radius: .5rem;
   justify-self: center;
 }
@@ -592,54 +587,6 @@ img {
 .swiper-button-next,
 .swiper-pagination-bullet {
   outline: none;
-}
-
-/*==================== CONTACT ME ====================*/
-.contact__container {
-  row-gap: 3rem;
-}
-
-.contact__information {
-  display: flex;
-  margin-bottom: var(--mb-2);
-}
-
-.contact__icon {
-  font-size: 2rem;
-  color: var(--first-color);
-  margin-right: var(--mb-0-75);
-}
-
-.contact__title {
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-medium);
-}
-
-.contact__subtitle {
-  font-size: var(--small-font-size);
-  color: var(--text-color-light);
-}
-
-.contact__content {
-  background-color: var(--input-color);
-  border-radius: .5rem;
-  padding: .75rem 1rem .25rem;
-}
-
-.contact__label {
-  font-size: var(--smaller-font-size);
-  color: var(--title-color);
-}
-
-.contact__input {
-  width: 100%;
-  background-color: var(--input-color);
-  color: var(--text-color);
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  border: none;
-  outline: none;
-  padding: .25rem .5rem .5rem 0;
 }
 
 /*==================== FOOTER ====================*/
