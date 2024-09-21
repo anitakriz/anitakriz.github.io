@@ -524,12 +524,9 @@ img {
 
 }
 .qualification__subtitle {
-  color: darkslategray;
+  color:rgba(77, 77, 77, 0.268);
   margin: 0; /* Remove default margin for better alignment */
   
-}
-.qualification__calendar {
-  color: darkslategray;
 }
 
 .qualification__logo {
@@ -537,7 +534,6 @@ img {
   height: auto; /* Maintain aspect ratio */
   margin-bottom: 0.5rem; /* Space between stacked logos */
 }
-
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
