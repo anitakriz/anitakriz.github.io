@@ -513,7 +513,7 @@ img {
 .qualification__data {
   display: flex; /* Align items in a row */
   align-items: flex-start; /* Aligns items at the start vertically */
-  margin-bottom: 1rem; /* Space between each education entry */
+  margin-bottom: 1.5rem; /* Space between each education entry */
 }
 
 .qualification__logos {
@@ -521,24 +521,22 @@ img {
   flex-direction: column; /* Stacks logos vertically */
   margin-right: 1.5rem; /* Space between logos and text */
 }
-.qualification__logo {
-  width: 100px; /* Adjusted width */
-  height: auto; /* Maintain aspect ratio */
-  margin-bottom: 0.5rem; /* Space between stacked logos */
-}
 
 .qualification__info {
   display: flex; /* Aligns title and subtitles in a column */
   flex-direction: column; /* Stacks title and subtitles vertically */
 }
 
-.qualification__title {
+.qualification__title, .qualification__subtitle {
   margin: 0; /* Remove default margin for better alignment */
 }
 
-.qualification__subtitle {
-  margin: 0; /* Remove default margin for better alignment */
+.qualification__logo {
+  width: 100px; /* Adjust the logo width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 0.5rem; /* Space between stacked logos */
 }
+
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
