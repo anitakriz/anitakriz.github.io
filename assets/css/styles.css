@@ -497,6 +497,7 @@ img {
   display: flex; /* Use flex for layout */
   flex-direction: column; /* Stack items vertically */
   align-items: center; /* Center align items */
+  justify-content: center;
   max-width: 1200px; /* Limit the max-width for better readability */
   margin: 0 auto; /* Center the container horizontally */
   padding: 2rem 1rem; /* Add padding to prevent content from hitting the edges */
