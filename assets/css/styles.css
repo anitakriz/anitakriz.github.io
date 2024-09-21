@@ -524,12 +524,12 @@ img {
 
 }
 .qualification__subtitle {
-  color:rgba(54, 54, 54, 0.268);
+  color:rgba(30, 30, 30, 0.2);
   margin: 0; /* Remove default margin for better alignment */
   
 }
 .qualification__calendar {
-  color:rgba(54, 54, 54, 0.268);
+  color:rgba(30, 30, 30, 0.2);
   margin: 0; /* Remove default margin for better alignment */
 }
 
