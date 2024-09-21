@@ -448,6 +448,7 @@ img {
   align-items: center; /* Center align items */
   max-width: 1200px;
   margin: 0 auto; /* Center the container horizontally */
+  padding: 0; /* Remove any default padding */
 }
 
 .about__img-wrapper {
