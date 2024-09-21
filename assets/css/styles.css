@@ -578,30 +578,45 @@ img {
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
-  overflow: initial;
+  overflow: initial; /* Keep this for proper overflow handling */
+  display: flex; /* Use flex for better alignment and layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center-align content */
 }
 
 .portfolio__content {
-  padding: 0 1.5rem;
+  padding: 1.5rem; /* Adjust padding for better spacing */
+  display: flex; /* Use flexbox for image and text alignment */
+  flex-direction: column; /* Stack image above text */
+  align-items: center; /* Center items within the content */
+  text-align: left; /* Ensure text is left-aligned */
+  background-color: #f8f8f8; /* Optional: add background color for better contrast */
+  border-radius: 0.5rem; /* Rounded corners for the content box */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+  margin: 1rem; /* Space between portfolio items */
+  max-width: 350px; /* Set a max width for responsiveness */
+  width: 100%; /* Allow full width within constraints */
 }
 
 .portfolio__img {
-  width: 300px;
-  border-radius: .5rem;
-  justify-self: center;
+  width: 100%; /* Make image responsive */
+  max-width: 300px; /* Keep max-width for images */
+  border-radius: 0.5rem; /* Consistent rounded corners */
+  margin-bottom: 1rem; /* Space below image */
 }
 
 .portfolio__title {
-  font-size: var(--h3-font-size);
-  margin-bottom: var(--mb-0-5);
+  font-size: var(--h3-font-size); /* Ensure variable is defined in CSS */
+  margin-bottom: var(--mb-0-5); /* Consistent bottom margin */
 }
 
 .portfolio__description {
-  margin-bottom: var(--mb-0-75);
+  margin-bottom: var(--mb-0-75); /* Consistent bottom margin */
 }
 
+/* Link styles */
 .portfolio__description a {
-  color: var(--first-color); /* Change this to your desired color */
+  color: var(--first-color); /* Custom link color */
   text-decoration: none; /* Remove underline */
 }
 
@@ -610,40 +625,44 @@ img {
   text-decoration: underline; /* Optional: underline on hover */
 }
 
+/* Button hover effect */
 .portfolio__button:hover .button__icon {
   transform: translateX(0.25rem);
 }
 
+/* Swiper button adjustments */
 .swiper-button-prev::after,
 .swiper-button-next::after {
-  content: '';
+  content: ''; /* Clear previous content */
 }
 
 .swiper-portfolio-icon {
-  font-size: 2rem;
-  color: var(--first-color);
+  font-size: 2rem; /* Size for navigation icons */
+  color: var(--first-color); /* Custom color for icons */
 }
 
 .swiper-button-prev {
-  left: -.5rem;
+  left: -0.5rem; /* Adjust positioning */
 }
 
 .swiper-button-next {
-  right: -.5rem;
+  right: -0.5rem; /* Adjust positioning */
 }
 
+/* Pagination adjustments */
 .swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom: -2.5rem;
+  bottom: -2.5rem; /* Positioning for bullets */
 }
 
 .swiper-pagination-bullet-active {
-  background-color: var(--first-color);
+  background-color: var(--first-color); /* Active bullet color */
 }
 
+/* Disable outline on focus */
 .swiper-button-prev,
 .swiper-button-next,
 .swiper-pagination-bullet {
-  outline: none;
+  outline: none; /* Remove outline for better appearance */
 }
 
 /*==================== FOOTER ====================*/
