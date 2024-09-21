@@ -511,11 +511,21 @@ img {
 }
 
 .qualification__data {
-  text-align: left; /* Align text to the left */
-  width: 100%;
-  max-width: 800px; /* Limit width */
-  margin-bottom: 1.5rem;
-  padding: 1rem 1rem;
+  display: flex; /* Aligns items in a row */
+  align-items: center; /* Vertically centers the logos and text */
+  margin-bottom: 1rem; /* Space between each education entry */
+}
+
+.qualification__logos {
+  display: flex; /* Allows stacking */
+  flex-direction: column; /* Stacks logos vertically */
+  margin-right: 1rem; /* Space between logos and text */
+}
+
+.qualification__logo {
+  width: 80px; /* Set a larger width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 0.5rem; /* Space between stacked logos */
 }
 
 .qualification__title {
@@ -532,18 +542,6 @@ img {
 .qualification__calendar {
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
-}
-
-.qualification__data {
-  display: flex; /* Aligns items in a row */
-  align-items: center; /* Vertically centers the logo and text */
-  margin-bottom: 1rem; /* Space between each education entry */
-}
-
-.qualification__logo {
-  width: 50px; /* Set the desired width */
-  height: auto; /* Maintain aspect ratio */
-  margin-right: 1rem; /* Space between logo and text */
 }
 
 /*==================== PORTFOLIO ====================*/
