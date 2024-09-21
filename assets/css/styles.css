@@ -493,35 +493,6 @@ img {
 
 /*==================== QUALIFICATION ====================*/
 
-.qualification__background {
-  display: flex;
-  justify-content: flex-start; /* Align items to the start */
-  align-items: center;
-  gap: 1.5rem;
-  
-  /* Unified background for each education entry */
-  background-color: var(--first-color-lighter); /* You can customize this color */
-  
-  /* Set height and width */
-  height: 100px; /* Example height, adjust as needed */
-  width: 100%; /* Full width of the container, or specify a max-width */
-
-  padding: 2rem; /* Padding around content */
-  border-radius: 20px; /* Rounded edges */
-  box-shadow: 0 4px 8px rgba(160, 69, 69, 0.268); /* Optional shadow */
-}
-
-
-.qualification__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center-align items */
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-  gap: 2rem;
-}
-
 .qualification__content {
   width: 100%;
   display: flex;
@@ -533,6 +504,12 @@ img {
 .qualification__data {
   display: flex; /* Align items in a row */
   align-items: flex-start; /* Aligns items at the start vertically */
+  margin: 0 auto; /* Center the block */
+  max-width: 600px; /* Set maximum width for the education block */
+  background-color: var(--first-color-lighter); /* Background color */
+  padding: 2rem; /* Padding inside the background */
+  border-radius: 20px; /* Rounded edges */
+  box-shadow: 0 4px 8px rgba(160, 69, 69, 0.268); /* Optional shadow */
   margin-bottom: 1.5rem; /* Space between each education entry */
 }
 
@@ -542,18 +519,17 @@ img {
   margin-right: 1.5rem; /* Space between logos and text */
 }
 
-.qualification__title,
-.qualification__subtitle {
-  margin: 0; /* Remove default margin for better alignment */
-  text-align: left; /* Align text to the left */
-}
-
 .qualification__info {
   display: flex; /* Aligns title and subtitles in a column */
   flex-direction: column; /* Stacks title and subtitles vertically */
   align-items: flex-start; /* Left-aligns the contents */
 }
 
+.qualification__title,
+.qualification__subtitle {
+  margin: 0; /* Remove default margin for better alignment */
+  text-align: left; /* Align text to the left */
+}
 
 .qualification__logo {
   width: 100px; /* Adjust the logo width as needed */
