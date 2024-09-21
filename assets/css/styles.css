@@ -524,11 +524,14 @@ img {
 
 }
 .qualification__subtitle {
-  color:rgba(77, 77, 77, 0.268);
+  color:rgba(54, 54, 54, 0.268);
   margin: 0; /* Remove default margin for better alignment */
   
 }
-
+.qualification__calendar {
+  color:rgba(54, 54, 54, 0.268);
+  margin: 0; /* Remove default margin for better alignment */
+}
 .qualification__logo {
   width: 100px; /* Adjust the logo width as needed */
   height: auto; /* Maintain aspect ratio */
