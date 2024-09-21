@@ -492,25 +492,19 @@ img {
 }
 
 /*==================== QUALIFICATION ====================*/
-
-.qualification__content {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  align-items: center; /* Center-align content */
-}
-
-.qualification__data {
-  display: flex; /* Align items in a row */
-  align-items: flex-start; /* Aligns items at the start vertically */
-  margin: 0 auto; /* Center the block */
-  max-width: 600px; /* Set maximum width for the education block */
+.qualification__container {
+  margin: 0 auto; /* Center the container */
+  max-width: 600px; /* Set max width for each qualification entry */
   background-color: var(--first-color-lighter); /* Background color */
   padding: 2rem; /* Padding inside the background */
   border-radius: 20px; /* Rounded edges */
   box-shadow: 0 4px 8px rgba(160, 69, 69, 0.268); /* Optional shadow */
   margin-bottom: 1.5rem; /* Space between each education entry */
+}
+
+.qualification__data {
+  display: flex; /* Align items in a row */
+  align-items: flex-start; /* Aligns items at the start vertically */
 }
 
 .qualification__logos {
@@ -522,13 +516,11 @@ img {
 .qualification__info {
   display: flex; /* Aligns title and subtitles in a column */
   flex-direction: column; /* Stacks title and subtitles vertically */
-  align-items: flex-start; /* Left-aligns the contents */
 }
 
 .qualification__title,
 .qualification__subtitle {
   margin: 0; /* Remove default margin for better alignment */
-  text-align: left; /* Align text to the left */
 }
 
 .qualification__logo {
