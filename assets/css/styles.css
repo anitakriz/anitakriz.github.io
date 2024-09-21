@@ -521,6 +521,11 @@ img {
   flex-direction: column; /* Stacks logos vertically */
   margin-right: 1.5rem; /* Space between logos and text */
 }
+.qualification__logo {
+  width: 100px; /* Adjusted width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 0.5rem; /* Space between stacked logos */
+}
 
 .qualification__info {
   display: flex; /* Aligns title and subtitles in a column */
