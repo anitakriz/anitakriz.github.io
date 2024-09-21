@@ -542,14 +542,18 @@ img {
   margin-right: 1.5rem; /* Space between logos and text */
 }
 
+.qualification__title,
+.qualification__subtitle {
+  margin: 0; /* Remove default margin for better alignment */
+  text-align: left; /* Align text to the left */
+}
+
 .qualification__info {
   display: flex; /* Aligns title and subtitles in a column */
   flex-direction: column; /* Stacks title and subtitles vertically */
+  align-items: flex-start; /* Left-aligns the contents */
 }
 
-.qualification__title, .qualification__subtitle {
-  margin: 0; /* Remove default margin for better alignment */
-}
 
 .qualification__logo {
   width: 100px; /* Adjust the logo width as needed */
