@@ -454,6 +454,7 @@ img {
   font-size: var(--small-font-size);
   color: var(--text-color);
   margin-bottom: var(--mb-1);
+  text-align: center;
 }
 
 .about__img {
