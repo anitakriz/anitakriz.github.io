@@ -621,7 +621,7 @@ h3.portfolio__title {
 
 .portfolio__subtitle {
   font-size: var(--small-font-size);
-  color: var(--first-color-alt) !important;
+  color: var(--first-color-second) !important;
   margin-bottom: var(--mb-1);
   text-align: center;
 }
