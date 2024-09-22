@@ -575,95 +575,73 @@ img {
   text-decoration: underline;
 }
 
-
 /*==================== PORTFOLIO ====================*/
+/* Portfolio container */
 .portfolio__container {
-  overflow: initial; /* Keep this for proper overflow handling */
-  display: flex; /* Use flex for better alignment and layout */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center-align content */
+  overflow: initial;
 }
 
 .portfolio__content {
-  padding: 1.5rem; /* Adjust padding for better spacing */
-  display: flex; /* Use flexbox for image and text alignment */
-  flex-direction: column; /* Stack image above text */
-  align-items: center; /* Center items within the content */
-  text-align: left; /* Ensure text is left-aligned */
-  background-color: #f8f8f8; /* Optional: add background color for better contrast */
-  border-radius: 0.5rem; /* Rounded corners for the content box */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
-  margin: 1rem; /* Space between portfolio items */
-  max-width: 350px; /* Set a max width for responsiveness */
-  width: 100%; /* Allow full width within constraints */
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
 }
 
 .portfolio__img {
-  width: 100%; /* Make image responsive */
-  max-width: 300px; /* Keep max-width for images */
-  border-radius: 0.5rem; /* Consistent rounded corners */
-  margin-bottom: 1rem; /* Space below image */
+  width: 300px;
+  border-radius: 0.5rem;
+  justify-self: center;
 }
 
 .portfolio__title {
-  font-size: var(--h3-font-size); /* Ensure variable is defined in CSS */
-  margin-bottom: var(--mb-0-5); /* Consistent bottom margin */
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
 }
 
 .portfolio__description {
-  margin-bottom: var(--mb-0-75); /* Consistent bottom margin */
+  margin-bottom: var(--mb-0-75);
 }
 
-/* Link styles */
-.portfolio__description a {
-  color: var(--first-color); /* Custom link color */
-  text-decoration: none; /* Remove underline */
-}
-
-.portfolio__description a:hover {
-  color: var(--first-color-alt); /* Change hover color */
-  text-decoration: underline; /* Optional: underline on hover */
-}
-
-/* Button hover effect */
 .portfolio__button:hover .button__icon {
   transform: translateX(0.25rem);
 }
 
-/* Swiper button adjustments */
+/* Swiper navigation buttons */
 .swiper-button-prev::after,
 .swiper-button-next::after {
-  content: ''; /* Clear previous content */
+  content: '';
 }
 
 .swiper-portfolio-icon {
-  font-size: 2rem; /* Size for navigation icons */
-  color: var(--first-color); /* Custom color for icons */
+  font-size: 2rem;
+  color: var(--first-color);
 }
 
 .swiper-button-prev {
-  left: -0.5rem; /* Adjust positioning */
+  left: -0.5rem;
 }
 
 .swiper-button-next {
-  right: -0.5rem; /* Adjust positioning */
+  right: -0.5rem;
 }
 
-/* Pagination adjustments */
+/* Swiper pagination bullets */
 .swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom: -2.5rem; /* Positioning for bullets */
+  bottom: -2.5rem;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: var(--first-color); /* Active bullet color */
+  background-color: var(--first-color);
 }
 
-/* Disable outline on focus */
+/* Remove outline for accessibility */
 .swiper-button-prev,
 .swiper-button-next,
 .swiper-pagination-bullet {
-  outline: none; /* Remove outline for better appearance */
+  outline: none;
 }
+
 
 /*==================== FOOTER ====================*/
 .footer {
