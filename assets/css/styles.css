@@ -799,7 +799,7 @@ h3.portfolio__title {
   .home__schools {
     display: flex; /* Ensure flexbox is applied */
     align-items: center; /* Center align logos horizontally */
-    width: 80%; /* Make the section responsive to the screen width */
+    width: 100%; /* Make the section responsive to the screen width */
     padding: .25rem; /* Reduce padding for smaller screens */
     height: auto; /* Allow height to adjust based on content */
     gap: .25rem; /* Reduce gap between logos */
