@@ -602,7 +602,7 @@ img {
 }
 
 .portfolio__img {
-  width: 400px;
+  width: 80%;
   height: auto;
   margin-bottom: 20px;
   border-radius: 8px;
@@ -610,6 +610,7 @@ img {
 }
 
 .portfolio__title {
+  color:rgba(0, 0, 0, 0.1); 
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
 }
@@ -621,6 +622,7 @@ img {
 }
 
 .portfolio__description {
+  color: darkgray;
   margin-bottom: var(--mb-0-75);
 }
 
@@ -676,7 +678,7 @@ img {
 
 /*==================== FOOTER ====================*/
 .footer {
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 .footer__container {
