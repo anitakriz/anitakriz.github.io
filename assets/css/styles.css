@@ -797,7 +797,7 @@ h3.portfolio__title {
     width: 180px;
   }
   .home__schools {
-    width: 100%; /* Make the section responsive to the screen width */
+    width: 80%; /* Make the section responsive to the screen width */
     padding: 1rem; /* Reduce padding for smaller screens */
     height: auto; /* Allow height to adjust based on content */
     gap: 1rem; /* Reduce gap between logos */
