@@ -798,9 +798,9 @@ h3.portfolio__title {
   }
   .home__schools {
     width: 80%; /* Make the section responsive to the screen width */
-    padding: .5rem; /* Reduce padding for smaller screens */
+    padding: .25rem; /* Reduce padding for smaller screens */
     height: auto; /* Allow height to adjust based on content */
-    gap: .5rem; /* Reduce gap between logos */
+    gap: .25rem; /* Reduce gap between logos */
     flex-direction: column; /* Stack logos vertically */
     box-shadow: none; /* Optional: remove shadow to simplify design on small screens */
   }
