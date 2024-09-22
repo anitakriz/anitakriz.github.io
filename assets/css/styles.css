@@ -624,6 +624,16 @@ img {
   margin-bottom: var(--mb-0-75);
 }
 
+.portfolio__description a {
+  color: var(--first-color); /* Change this to your desired color */
+  text-decoration: none; /* Remove underline */
+}
+
+.portfolio__description a:hover {
+  color: var(--first-color-alt); /* Change hover color */
+  text-decoration: underline; /* Optional: underline on hover */
+}
+
 .portfolio__button:hover .button__icon {
   transform: translateX(0.25rem);
 }
