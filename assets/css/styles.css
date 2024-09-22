@@ -796,6 +796,7 @@ h3.portfolio__title {
   .home__blob {
     width: 180px;
     margin: 0 auto; /* Center the blob horizontally */
+    display: block; /* Ensure it's treated as a block element */
   }
   .home__schools {
     display: flex; /* Ensure flexbox is applied */
