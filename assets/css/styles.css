@@ -524,12 +524,12 @@ img {
 
 }
 .qualification__subtitle {
-  color: white !important;
+  color: rgb(46, 43, 130) !important;
   margin: 0; /* Remove default margin for better alignment */
   
 }
 .qualification__calendar {
-  color: white !important;
+  color: rgb(46, 43, 130) !important;
   margin: 0; /* Remove default margin for better alignment */
 }
 
