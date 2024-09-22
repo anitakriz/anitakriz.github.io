@@ -610,9 +610,13 @@ img {
 }
 
 .portfolio__title {
-  color: black !important; 
+  color: black; 
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
+}
+
+h3.portfolio__title {
+  color: black; /* Ensures the title is black */
 }
 .portfolio__subtitle {
   font-size: var(--small-font-size);
