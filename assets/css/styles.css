@@ -524,12 +524,12 @@ img {
 
 }
 .qualification__subtitle {
-  color: var(--first-color);
+  color: var(--first-color) !important;
   margin: 0; /* Remove default margin for better alignment */
   
 }
 .qualification__calendar {
-  color: var(--first-color);
+  color: var(--first-color) !important;
   margin: 0; /* Remove default margin for better alignment */
 }
 
@@ -621,7 +621,7 @@ h3.portfolio__title {
 
 .portfolio__subtitle {
   font-size: var(--small-font-size);
-  color: var(--first-color);
+  color: var(--first-color) !important;
   margin-bottom: var(--mb-1);
   text-align: center;
 }
