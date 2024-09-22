@@ -796,6 +796,15 @@ h3.portfolio__title {
   .home__blob {
     width: 180px;
   }
+  .home__schools {
+    padding: 1rem; /* Further reduce padding */
+  }
+
+  .home__school-icon {
+    width: 60px; /* Smaller logo size for extra small screens */
+    height: 60px;
+  }
+
   .about__img {
     width: 100%; /* 50% width for the image on larger screens */
   }
