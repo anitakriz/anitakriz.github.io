@@ -582,16 +582,16 @@ img {
 }
 
 .portfolio__content {
+  padding: 0 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 80%;
 }
 
 .portfolio__box {
-  background-color: #f9f9f9;
+  background-color: #d1d1d1;
   border-radius: 10px;
-  padding: 1.5rem; /* Moderate padding for a clean look */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
   text-align: center;
@@ -601,7 +601,7 @@ img {
 }
 
 .portfolio__img {
-  width: 100%;
+  width: 300px;
   height: auto;
   margin-bottom: 20px;
   border-radius: 8px;
