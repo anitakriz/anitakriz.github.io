@@ -814,6 +814,9 @@ h3.portfolio__title {
 .about__img {
   width: 80%; /* 50% width for the image on larger screens */
 }
+.qualification__container {
+  width: 80%
+}
 .qualification__data {
   gap: .5rem;
 }
