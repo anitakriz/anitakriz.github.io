@@ -801,6 +801,7 @@ h3.portfolio__title {
     padding: .5rem; /* Reduce padding for smaller screens */
     height: auto; /* Allow height to adjust based on content */
     gap: .5rem; /* Reduce gap between logos */
+    flex-direction: column; /* Stack logos vertically */
     box-shadow: none; /* Optional: remove shadow to simplify design on small screens */
   }
 
