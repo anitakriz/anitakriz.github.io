@@ -805,12 +805,12 @@ h3.portfolio__title {
   }
 
   .home__school-icon {
-    width: 30px; /* Smaller logo size for extra small screens */
-    height: 30px;
+    width: 10px; /* Smaller logo size for extra small screens */
+    height: 10px;
   }
 
   .about__img {
-    width: 100%; /* 50% width for the image on larger screens */
+    width: 80%; /* 50% width for the image on larger screens */
   }
   .qualification__data {
     gap: .5rem;
