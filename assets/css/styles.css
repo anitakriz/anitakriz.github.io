@@ -610,7 +610,7 @@ img {
 }
 
 .portfolio__title {
-  color: black; 
+  color: black !important; 
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
 }
