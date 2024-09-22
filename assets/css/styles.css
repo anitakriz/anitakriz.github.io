@@ -812,13 +812,12 @@ h3.portfolio__title {
     height: auto; /* Maintain aspect ratio */
 }
 
-
-  .about__img {
-    width: 80%; /* 50% width for the image on larger screens */
-  }
-  .qualification__data {
-    gap: .5rem;
-  }
+.about__img {
+  width: 80%; /* 50% width for the image on larger screens */
+}
+.qualification__data {
+  gap: .5rem;
+}
 }
 
 /* For medium devices */
@@ -833,6 +832,23 @@ h3.portfolio__title {
     order: 1;
     justify-self: center;
   }
+  .home__schools {
+    display: flex; /* Ensure flexbox is applied */
+    flex-direction: column; /* Stack logos vertically */
+    align-items: center; /* Center align logos horizontally */
+    width: 80%; /* Make the section responsive to the screen width */
+    padding: .25rem; /* Reduce padding for smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+    gap: .25rem; /* Reduce gap between logos */
+    box-shadow: none; /* Optional: remove shadow to simplify design on small screens */
+  }
+
+  .home__school-icon {
+      width: 50px; /* Adjust logo size for visibility */
+      height: auto; /* Maintain aspect ratio */
+  }
+
+
   .about__container,
   .skills__container,
   .portfolio__content,
