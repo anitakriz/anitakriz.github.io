@@ -524,7 +524,7 @@ img {
 
 }
 .qualification__subtitle {
-  color: var(--first-color-alt) !important;
+  color: white !important;
   margin: 0; /* Remove default margin for better alignment */
   
 }
