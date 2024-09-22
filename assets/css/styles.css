@@ -524,12 +524,12 @@ img {
 
 }
 .qualification__subtitle {
-  color:rgba(30, 30, 30, 0.2);
+  color: var(--text-color);
   margin: 0; /* Remove default margin for better alignment */
   
 }
 .qualification__calendar {
-  color:rgba(30, 30, 30, 0.2);
+  color: var(--text-color);
   margin: 0; /* Remove default margin for better alignment */
 }
 
@@ -618,6 +618,7 @@ img {
 h3.portfolio__title {
   color: black; /* Ensures the title is black */
 }
+
 .portfolio__subtitle {
   font-size: var(--small-font-size);
   color: var(--text-color);
