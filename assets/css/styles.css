@@ -797,18 +797,21 @@ h3.portfolio__title {
     width: 180px;
   }
   .home__schools {
+    display: flex; /* Ensure flexbox is applied */
+    flex-direction: column; /* Stack logos vertically */
+    align-items: center; /* Center align logos horizontally */
     width: 80%; /* Make the section responsive to the screen width */
     padding: .25rem; /* Reduce padding for smaller screens */
     height: auto; /* Allow height to adjust based on content */
     gap: .25rem; /* Reduce gap between logos */
-    flex-direction: column; /* Stack logos vertically */
     box-shadow: none; /* Optional: remove shadow to simplify design on small screens */
-  }
+}
 
-  .home__school-icon {
-    width: 10px; /* Smaller logo size for extra small screens */
-    height: 10px;
-  }
+.home__school-icon {
+    width: 50px; /* Adjust logo size for visibility */
+    height: auto; /* Maintain aspect ratio */
+}
+
 
   .about__img {
     width: 80%; /* 50% width for the image on larger screens */
