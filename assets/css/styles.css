@@ -590,8 +590,9 @@ img {
 }
 
 .portfolio__box {
-  background-color: #d1d1d1;
+  background-color: #f0f0f0;
   border-radius: 10px;
+  padding: 1.5rem; /* Moderate padding for a clean look */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
   text-align: center;
@@ -611,6 +612,12 @@ img {
 .portfolio__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
+}
+.portfolio__subtitle {
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  margin-bottom: var(--mb-1);
+  text-align: center;
 }
 
 .portfolio__description {
