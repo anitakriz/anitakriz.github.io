@@ -610,7 +610,7 @@ img {
 }
 
 .portfolio__title {
-  color:rgba(0, 0, 0, 0.1); 
+  color: black; 
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
 }
@@ -661,7 +661,7 @@ img {
 
 /* Swiper pagination bullets */
 .swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom: -1.5rem;
+  bottom: -1rem;
 }
 
 .swiper-pagination-bullet-active {
