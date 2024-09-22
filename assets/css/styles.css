@@ -795,6 +795,7 @@ h3.portfolio__title {
   }
   .home__blob {
     width: 180px;
+    margin: 0 auto; /* Center the blob horizontally */
   }
   .home__schools {
     display: flex; /* Ensure flexbox is applied */
@@ -834,21 +835,6 @@ h3.portfolio__title {
     order: 1;
     justify-self: center;
   }
-  .home__schools {
-    display: flex; /* Ensure flexbox is applied */
-    align-items: center; /* Center align logos horizontally */
-    width: 80%; /* Make the section responsive to the screen width */
-    padding: .25rem; /* Reduce padding for smaller screens */
-    height: auto; /* Allow height to adjust based on content */
-    gap: .25rem; /* Reduce gap between logos */
-    box-shadow: none; /* Optional: remove shadow to simplify design on small screens */
-  }
-
-  .home__school-icon {
-      width: 50px; /* Adjust logo size for visibility */
-      height: auto; /* Maintain aspect ratio */
-  }
-
 
   .about__container,
   .skills__container,
