@@ -462,6 +462,7 @@ img {
   max-width: 100%; /* Ensure it doesn’t exceed container width */
   height: auto; /* Maintain aspect ratio */
   border-radius: .5rem; /* Rounded corners */
+  margin-bottom: 0.5rem;
 }
 
 .about__data {
@@ -473,6 +474,7 @@ img {
   margin-bottom: 0.5rem; /* Space below each description */
   max-width: 600px; 
   width: 100%; /* Full width */
+  text-align: justify; /* Justifies the text */
 }
 
 .about__description a {
