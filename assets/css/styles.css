@@ -610,7 +610,7 @@ img {
   width: 100%;
   height: auto; /* Changed to auto for better aspect ratio handling */
   max-height: 200px; /* Set max height */
-  object-fit: cover; /* Ensure the video covers the area */
+  object-fit: contain;
 }
 
 .project-info {
