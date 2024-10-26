@@ -579,7 +579,7 @@ img {
 /*==================== PERSONAL PROJECTS ====================*/
 /* General Section Styling */
 .personal_project.section {
-  padding: 1rem 0;
+  padding: 1rem 1rem;
   text-align: center;
 }
 
@@ -600,7 +600,8 @@ img {
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.3s ease;
-  background-color: var(--first-color-lighter); /* Background color */
+  background-color: #f5f5f5;
+  margin-bottom: 1rem; /* Add space below each card */
 }
 
 .project-card:hover {
