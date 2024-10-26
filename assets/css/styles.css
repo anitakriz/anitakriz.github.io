@@ -579,7 +579,7 @@ img {
 /*==================== PERSONAL PROJECTS ====================*/
 /* General Section Styling */
 .personal_project.section {
-  padding: 3rem 0;
+  padding: 1rem 0;
   text-align: center;
 }
 
@@ -588,7 +588,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  padding: 1rem 1rem;
 }
 
 /* Project Card Styling */
