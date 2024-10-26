@@ -322,6 +322,86 @@
                     </div>
                 </div>
             </section>
+            
+            <section class="personal_project section" id="project">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">Some of my recent work</span>
+                
+                <div class="project__container container">
+                    <!-- Project 1 -->
+                    <div class="project-card" onclick="openModal('abstract1')">
+                        <img src="assets/img/personal1.png" alt=" " class="project-image">
+                        <div class="project-info">
+                            <div class="project-title">High Fidelity Counterfactuals Paper Reproduction and Analysis</div>
+                        </div>
+                    </div>
+            
+                    <!-- Project 2 -->
+                    <div class="project-card" onclick="openModal('abstract2')">
+                        <img src="path/to/image2.jpg" alt="Simple Diffusion PyTorch Implementation" class="project-image">
+                        <div class="project-info">
+                            <div class="project-title">Simple Diffusion PyTorch Implementation</div>
+                        </div>
+                    </div>
+            
+                    <!-- Project 3 -->
+                    <div class="project-card" onclick="openModal('abstract3')">
+                        <img src="path/to/image3.jpg" alt="Synthetic MRI Generation" class="project-image">
+                        <div class="project-info">
+                            <div class="project-title">Synthetic MRI Generation with Latent Diffusion Models</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Abstract Modals -->
+            <div id="abstract1" class="abstract-modal">
+                <span class="modal-close" onclick="closeModal('abstract1')">&times;</span>
+                <div class="modal-content">
+                    <p>Description: In this project I critically analyzed the methodology proposed by Ribeiro et al. for generating high-fidelity counterfactual images using Structural Causal Models (SCMs). The study focused on the model’s application to both MNIST and Chest X-ray datasets to evaluate its effectiveness in producing realistic and causally consistent counterfactuals. Through this evaluation, I generated an in-depth report and presentation outlining the methodology, strengths, and potential improvements of the SCM-based approach. </p>
+                </div>
+                <button onclick="window.open('path/to/pdf1.pdf')">Read PDF</button>
+            </div>
+            
+            <div id="abstract2" class="abstract-modal">
+                <span class="modal-close" onclick="closeModal('abstract2')">&times;</span>
+                <div class="modal-content">
+                    <p>Abstract: This project explores a simple diffusion model with PyTorch for probabilistic image generation...</p>
+                </div>
+                <button onclick="window.open('path/to/pdf2.pdf')">Read PDF</button>
+            </div>
+            
+            <div id="abstract3" class="abstract-modal">
+                <span class="modal-close" onclick="closeModal('abstract3')">&times;</span>
+                <div class="modal-content">
+                    <p>Abstract: This project focuses on synthetic MRI generation using latent diffusion models to enhance medical imaging...</p>
+                </div>
+                <button onclick="window.open('path/to/pdf3.pdf')">Read PDF</button>
+            </div>
+            
+            <!-- Overlay for Modals -->
+            <div id="overlay" class="overlay" onclick="closeAllModals()"></div>
+            
+            <script>
+                function openModal(id) {
+                    document.getElementById(id).style.display = 'block';
+                    document.getElementById('overlay').style.display = 'block';
+                }
+            
+                function closeModal(id) {
+                    document.getElementById(id).style.display = 'none';
+                    document.getElementById('overlay').style.display = 'none';
+                }
+            
+                function closeAllModals() {
+                    const modals = document.getElementsByClassName('abstract-modal');
+                    for (const modal of modals) {
+                        modal.style.display = 'none';
+                    }
+                    document.getElementById('overlay').style.display = 'none';
+                }
+            </script>
+            
 
             <section class="portfolio section" id="portfolio">
                 <h2 class="section__title">Portfolio</h2>
