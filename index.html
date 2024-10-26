@@ -338,17 +338,17 @@
             
                     <!-- Project 2 -->
                     <div class="project-card" onclick="openModal('abstract2')">
-                        <img src="path/to/image2.jpg" alt="Simple Diffusion PyTorch Implementation" class="project-image">
+                        <img src="assets/img/personal2.png" alt="" class="project-image">
                         <div class="project-info">
-                            <div class="project-title">Simple Diffusion PyTorch Implementation</div>
+                            <div class="project-title">Towards a Conditional Generative Model for Trajectory Modeling in Medical Imaging</div>
                         </div>
                     </div>
             
                     <!-- Project 3 -->
                     <div class="project-card" onclick="openModal('abstract3')">
-                        <img src="path/to/image3.jpg" alt="Synthetic MRI Generation" class="project-image">
+                        <img src="assets/img/personal3.png" alt="" class="project-image">
                         <div class="project-info">
-                            <div class="project-title">Synthetic MRI Generation with Latent Diffusion Models</div>
+                            <div class="project-title">Rethinking Belief Propagation: Can Graph Neural Networks Take the Lead?</div>
                         </div>
                     </div>
                 </div>
@@ -360,23 +360,59 @@
                 <div class="modal-content">
                     <p>Description: In this project I critically analyzed the methodology proposed by Ribeiro et al. for generating high-fidelity counterfactual images using Structural Causal Models (SCMs). The study focused on the model’s application to both MNIST and Chest X-ray datasets to evaluate its effectiveness in producing realistic and causally consistent counterfactuals. Through this evaluation, I generated an in-depth report and presentation outlining the methodology, strengths, and potential improvements of the SCM-based approach. </p>
                 </div>
-                <button onclick="window.open('path/to/pdf1.pdf')">Read PDF</button>
+                <button onclick="window.open('assets/pdf/hfcf_report.pdf')">Read Summary Report</button>
+                <button onclick="window.open('assets/pdf/hfcf_ppt.pdf')">See Powerpoint Slides</button>
             </div>
             
             <div id="abstract2" class="abstract-modal">
                 <span class="modal-close" onclick="closeModal('abstract2')">&times;</span>
                 <div class="modal-content">
-                    <p>Abstract: This project explores a simple diffusion model with PyTorch for probabilistic image generation...</p>
+                    <p>Abstract: There is a need for the controllable generation of medical images in order to monitor
+                        chronic diseases such as Multiple Sclerosis (MS). In order to develop such models,
+                        highly correlated attributes need to be sufficiently separable so that the model can
+                        learn how each independently effects the generated image. Learning a disentangled
+                        representation of attributes would thus allow for specific control in the generation
+                        process. In this work, the latent spaces of the StyleGAN are studied to understand
+                        how disentangled they are. Disentanglement is both qualitatively and quantitatively
+                        assessed for the StyleGAN and its variations, with metrics formulated from models
+                        specifically trained on MS data. Although the resulting generation still requires
+                        optimization, this is a first step in creating a conditional model for controllable
+                        generation in medical imaging with vast applications such as trajectory modeling
+                        and treatment effect.</p>
                 </div>
-                <button onclick="window.open('path/to/pdf2.pdf')">Read PDF</button>
+                <button onclick="window.open('assets/pdf/ECSE556_report.pdf')">Read Final Report</button>
             </div>
             
             <div id="abstract3" class="abstract-modal">
                 <span class="modal-close" onclick="closeModal('abstract3')">&times;</span>
                 <div class="modal-content">
-                    <p>Abstract: This project focuses on synthetic MRI generation using latent diffusion models to enhance medical imaging...</p>
+                    <p>Abstract: Although exact inference in Probabilistic Graphi-
+                        cal Models (PGMs) is possible on relatively small
+                        graphs and in tree-like graphs by using message
+                        passing algorithms such as Belief Propagation
+                        (BP), performing these tasks on graphs of arbi-
+                        trary size and connectivity is computationally ex-
+                        pensive and often intractable. Methods like BP
+                        can be used for approximate inference but gen-
+                        erally struggle in loopy graphs or graphs with
+                        far-reaching node dependencies. Although used
+                        in different applications, there is a striking paral-
+                        lel between the fundamental concept of message
+                        passing in PGMs and Graph Neural Networks
+                        (GNN). This naturally gives way to using GNNs
+                        for approximate inference in PGMs by mapping
+                        nodes in PGMs to nodes in GNNs. In this work,
+                        we compare BP with GNN methods both in tree
+                        and non tree graph structures. To extrapolate the
+                        need for importance weighing in graph structures,
+                        we explore the use of soft attention in GNNs. Ex-
+                        panding on the works of Yoon et al. (2019), our
+                        work demonstrates that using this mechanism in
+                        the GNN outperforms its variants and BP on vari-
+                        ous graphs. Our code is publically available here1.</p>
                 </div>
-                <button onclick="window.open('path/to/pdf3.pdf')">Read PDF</button>
+                <button onclick="window.open('assets/pdf/IFT6269_report.pdf')">Read Final Report</button>
+                <button onclick="window.open('assets/pdf/IFT6269_poster.pdf')">See Poster</button>
             </div>
             
             <!-- Overlay for Modals -->
